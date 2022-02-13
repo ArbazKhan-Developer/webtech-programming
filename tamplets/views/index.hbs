@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="https://livejs.com/live.js"></script>
+  <title>WebTech Programming</title>
+</head>
+
+<body>
+<div class="container-fluid navbar-style py-3">
+    <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <p class="navbar-brand" href="#" id="logo">WebTech Programming</p>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto" id="navalign">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="service">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="logout">Logout</a>
+                        </li>
+                        {{!-- <li class="nav-item">
+                            <a class="nav-link" id="text">Logout</a>
+                        </li> --}}
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div>
+  
+
+
+
+  <div class="welcome">
+    <h1>Welcome To WebTech Programming</h1>
+  </div>
+  <div class="static-txt">We're</div>
+  <div class="wrapper">
+    <ul class="dynamic-txts">
+      <li><span>Web Developer..</span></li>
+      <li><span>Freelancer..</span></li>
+      <li><span>Web Designer..</span></li>
+      <li><span>YouTuber..</span></li>
+    </ul>
+  </div>
+  <div id="home">
+    <div class="container-fluid mt-3">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto intro">
+          <p>if you're looking to davelope a website for you buisness with the use of React, Node.js, Python, AWS, Azure
+            by a professional developer. Then this is right place for you.</p>
+          <p>We also provide Web Development Training & mock-interview for frontend(React, html, css,
+            jacaScript,bootstrap) and backend(node.js, Python, php) with cloud Technology like AWS, Azure and in
+            Database
+            MySql, Mongodb.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid mt-2">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+          <div class="row">
+            {{!-- left section --}}
+            <div
+              class="col-md-6 col-12 hero-text order-md-0 order-1 d-flex justify-content-center align-items-start flex-column">
+              <h1>We will help you</h1>
+              <h1>to grow your buisness</h1>
+              <p>We are the team of <span class="bold-style">professional Developer &#9996;</span></p>
+              <nav class="navbar">
+                <a target="blank" href="ourteam">Meet our Team</a>
+              </nav>
+            </div>
+            {{!-- right section --}}
+            <div class="col-md-6 col-12 hero-text order-md-1 order-0">
+              <img src="/images/home.jpg" alt="home image">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {{>footer}}
+  <script src="../js/bootstrap.js"></script>
+  <script src="../jq/jquery.jq"></script>
+</body>
+
+</html>
